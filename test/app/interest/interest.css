@@ -1,0 +1,44 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto; /* Centra el formulario y ajusta el margen */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #c1bebec1;
+    max-width: 450px; /* Limita el ancho máximo del formulario */
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #333;
+  }
+  
+  @media (min-width: 768px) {
+    form {
+      margin-top: 0;
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    ul li {
+      font-size: 1.1rem;
+    }
+  }
+  
